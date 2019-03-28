@@ -27,6 +27,9 @@
      * @param value The int input value n.
      * @return The int output value n!.
      */
+
+	/** **** Will this save? **** */
+
     public int factorial(int value)
     {
         /*
@@ -34,6 +37,7 @@
          * This lets our recursion know when to stop.
          */
         //TODO
+        return 0;
 
 
         /*
@@ -67,6 +71,7 @@
     public int fibonacci(int n)
     {
         //TODO
+        return 0;
     }
 
     
@@ -105,6 +110,7 @@
         public int getValue()
         {
     	    //TODO
+            return 0;
         }
     
         public ArrayList<Tree> getChildren()
@@ -152,6 +158,7 @@
         }
         
     	//TODO
+        return 0;
     }
 
     /** **********************************************************************
@@ -165,6 +172,7 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+        return 0;
     }
     
     /** **********************************************************************
