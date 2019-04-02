@@ -84,8 +84,7 @@
         }
         else
         {
-            solution = (n-1)+(n-2);
-            return solution;
+            return n*fibonacci(n-1);
         }
     }
 
@@ -120,6 +119,7 @@
         public Tree(int value)
         {
     	    //TODO
+            this.value=value;
         }
     
         public int getValue()
