@@ -71,7 +71,16 @@
     public int fibonacci(int n)
     {
         //TODO
-        return 0;
+	int solution;
+	if(n==1||n==2)
+        {
+            return 1;
+        }
+        else
+        {
+            solution = (n-1)+(n-2);
+            return solution;
+        }
     }
 
     
